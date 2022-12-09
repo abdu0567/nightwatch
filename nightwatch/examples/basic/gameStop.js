@@ -1,7 +1,7 @@
-describe('Ecosia.org Demo', function() {
+describe('Gamestop Demo', function() {
   before(browser => browser.navigateTo('https://www.gamestop.com/'));
 
-  it('Demo test ecosia.org', function(browser) {
+  it('will verify mario striker search result', function(browser) {
     browser
       .waitForElementVisible('#searchRedesignTemplateInput')
       .setValue('#searchRedesignTemplateInput', 'mario strikers')
